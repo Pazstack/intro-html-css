@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en"> <!-- Indica El Idioma--> 
+<head>
+    <meta charset="UTF-8"> <!-- Indica El Abecedario-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduccion HTML</title> <!-- Cambia el titulo de la pestaña-->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h1 id="h1_id">Titulo Principal</h1>
+    <h2>H2</h2>
+    <h3 class="fucsia">H3</h3>
+    <h4>H4</h4>
+    <h5>H5</h5>
+    <h6>H6</h6> 
+    
+    <p class="fucsia">Párrafo - Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corporis expedita debitis accusamus est ipsa esse! Doloremque debitis autem aspernatur quaerat. Iure beatae et officiis laboriosam quaerat, nobis iusto perspiciatis minus?</p>
+
+    <a href="http://google.com">Enlace</a> <!-- href=" la pagina a la que voy a redirigir al usuario; dentro de la etiqueta a (enlace) podemos tener mas etiquetas -->
+
+    <p>
+        etiqueta <strong>strong</Strong> y etiqueta <em>énfasis</em>
+    </p>
+
+    <div class="contenedor">
+        <h4>H4 dentro de contenedor</h4>
+        <div>
+            <h4>H4 dentro de div, que esta dentro de contenedor</h4>
+        </div>
+    </div>
+
+
+<h2 class="fucsia">Lista Desordenada</h2>
+    <h3>Mi Tiempo Libre</h3>
+    <ul>
+        <li>disfrutar con mi familia</li>
+        <li>viajar</li>
+        <li>comer</li>
+        <li>dormir</li>
+        <li>ver series</li>
+    </ul>
+
+    <h2>Lista Ordenada</h2>
+    <h3>Stack Tecnologico</h3>
+
+    <ol>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>MySql</li>
+        <li>React</li>
+        <li>NodeJs</li>
+        <li>AWS</li>    
+    </ol>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Título 1</th>
+                <th>Título 2</th>
+                <th>Título 3</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>columna 1.1</td>
+                <td>columna 1.2</td>
+                <td>columna 1.3</td>
+            </tr>
+            <tr>
+                <td>columna 2.1</td>
+                <td>columna 2.2</td>
+                <td>columna 2.3</td>
+            </tr>
+        </tbody>
+    </table>
+
+<img src="imagenes/15aeaa28a81c3ec53d4491033d4fe27f.jpg" alt="Hello Kitti jpg"  height="250 px">
+
+<div>
+    <p>Párrafo</p>
+</div>
+
+<!--FORMULARIOS-->
+<form action="/accion" method="post">
+    <div>
+        <label for="input_texto">NOMBRE</label>
+        <input type="text" name="input_texto" id="input_texto">
+        <!--EL FOR DE LA LINEA 77 DEBE COINCIDIR CON EL ID DE LA LINEA 78 (FOR E ID DEBEN SER EXACTAMENTE IGUALES)-->
+    </div>
+    <div>
+        <label for="input_numeral">NÚMERO</label>
+        <input type="number" name=input_numeral id="input_numeral"> <!--para poner limite en el número a ingresar se utiliza min y max-->
+    </div>
+    <div>
+        <label for="input_contra">CONTRASEÑA</label>
+        <input type="password" name="input_contra" id="input_contra">
+    </div>
+    <div>
+        <label for="input_fecha">FECHA</label>
+        <input type="date" name="input_fecha" id="input_fecha">
+    </div>
+    <div>
+        <input type="radio" name="estado_civil" value="casado" id="input_casado">
+        <label for="input_casado">Casado</label> <br>
+
+        <input type="radio" name="estado_civil" value="soltero" id="input_soltero">
+        <label for="input_soltero">Soltero</label>
+    </div>
+<div>
+    <input type="checkbox" name="mayor_edad" id="input_edad">
+    <label for="input_edad">¿Es mayor de edad?</label>
+</div>
+<div>
+    <textarea name="" id="" cols="20" rows="5"></textarea>
+</div>
+<div>
+    <select name="Comida_preferida">
+    <option >Lasaña</option>
+    <option >Carne Asada</option>
+    <option >Sushi</option>
+    </select>
+</div>
+<div>
+    <input type="submit" value="Enviar">
+</div>
+    
+
+</form>
+<h3 class="color">
+    Esta es una propiedad de color
+</h3>
+<p class="texto">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae labore consequuntur, sit corrupti sint quia soluta a maxime, perferendis id asperiores eveniet totam ipsam! At eaque cum illum possimus delectus!
+</p>
+
+<div class="tamaño">
+
+</div>
+
+<div class="background">
+
+</div>
+
+<div id="box_model">
+    TEXTO DE PRUEBA
+</div>
+
+<!--OTRAS ETIQUETAS-->
+
+<header>
+
+</header>
+
+<section>
+
+</section>
+
+<footer>
+
+</footer>
+
+<nav>
+
+</nav>
+
+<main>
+
+</main>
+
+<!--SON ETIQUETAS MAS BIEN SEMANTICAS Y SE COMPORTAN SIMILAR A UN DIV-->
+
+<h2 class="h2_inline">Este es un ejemplo</h2>
+<h2 class="h2_inline">Este es otro ejemplo</h2>
+
+<input class="block" type="text" placeholder="NOMBRE">
+<input class="block" type="password" placeholder="CONTRASEÑA">
+<a class="block" href="a">Enlace de prueba</a>
+
+<div class="flag black"></div>
+<div class="flag yellow"></div>
+<div class="flag red"></div>
+
+<div>
+
+<div class="div1 vertical_align"></div>
+<div class="div2 vertical_align"></div>
+<div class="div3 vertical align"></div>
+
+</div>
+
+
+
+
+</body>
+</html>
